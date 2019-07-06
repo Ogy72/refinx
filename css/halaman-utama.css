@@ -1,0 +1,289 @@
+/* ubuntu*/
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../font/Ubuntu-Regular.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* ubuntu*/
+ @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../font/Ubuntu-Regular.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* OpenSans*/
+ @font-face {
+    font-family: 'OpenSansCondensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('OpenSansCondensed Light'), local('OpenSansCondensed-Light'), url(../font/OpenSansCondensed-Light.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #465461;
+    background-size: cover;
+}
+
+#panel{
+    position: relative;
+    top: 15px;
+    right: 0;left: 0;
+    width: 81%;
+    height: 630px;
+    margin: auto;
+    background-color: #30333a;
+    box-shadow: 4.5px 15px 15px 2px rgb(27, 27, 27);
+}
+
+#panel-login{
+    position: relative;
+    top: 45px;
+    right: 0;left: 0;
+    width: 30%;
+    height: 570px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(48, 51, 58, 0.4);
+    color: #fff;
+    box-shadow: 4.5px 15px 15px 2px rgb(27, 27, 27);
+    font-family: 'Century Gothic',sans-serif;
+}
+
+#panel-login h1{
+    margin-top: 15px;
+    font-size: 39px;
+}
+
+#panel-login h4{
+    font-family: 'OpenSansCondensed';
+    font-size: 24px;
+}
+
+#header{
+    position: relative;
+    width: 100%;
+    height: 9%;
+}
+
+.r-logo{
+    width: 40px;
+    height: 39px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.a-clr{
+    color: #e7e5e5 !important;
+    font-size: 14.5px;
+}
+
+#content{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    padding: 0px 15px 0px 15px;
+    background-color: #ECF3F4;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 39px;
+    background-color: #30333a;
+}
+
+.footname{
+    position: relative;
+    text-align: left;
+    padding-top: 12px;
+    font-size: 15px;
+    padding-left: 13px;
+    color: #e7e5e5 !important;
+}
+
+.footregion{
+    position: relative;
+    text-align: right;
+    float: right;
+    font-size: 15px;
+    padding-right: 13px;
+    color: #e7e5e5 !important;
+}
+
+.table-scroll{
+    height: 400px;
+    width: 100%;
+	overflow-y: scroll;
+}
+
+.icon-calender{
+    color: #30333a;
+    font-style: normal;
+}
+
+.table-scroll_cartridge{
+    height: 364px;
+    width: 100%;
+	overflow-y: scroll;
+}
+
+.table-scroll_print{
+    height: 350px;
+    width: 100%;
+	overflow-y: scroll;
+}
+
+.panel-app{
+    margin-top: -535px;
+    width: 100%;
+    height: 380px;
+    padding: 25px 0px 0px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #465461a4;
+    z-index:2;
+}
+
+.panel-info{
+    display: flex;
+    margin-top: -155px;
+    width: 100%;
+    height: 155px;
+    background-color: #ffa600d0;
+    z-index: 3;
+}
+
+.panel-user{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.txt-app{
+    margin-bottom: 1px;
+    font-family: 'ubuntu';
+    font-size: 47px;
+}
+
+.txt-deskripsi{
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'ubuntu';
+    margin-bottom: 70px;
+}
+
+.txt-welcome{
+    text-align: center;
+    font-family: 'ubuntu';
+    font-size: 37px;
+}
+
+.one-step{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.txt-info{
+    text-align: left;
+    font-family: 'ubuntu';
+}
+
+.bg-pict{
+    width: 100%;
+    height: 535px;
+    z-index:1;
+}
+
+.info-alamat{
+    padding-top: 20px;
+    padding-left: 90px;
+    text-align: justify;
+}
+
+.info-kontak{
+    padding-top: 25px;
+    padding-left: 150px;
+
+}
+
+.web, .facebook, .gmail{
+    font-style: normal;
+}
+
+.logo-user{
+    padding: 5px 0px 0px 12px;
+}
+
+.icon-user{
+    font-style: normal;
+    font-size: 65px;
+}
+.info-user{
+    padding: 10px 0px 0px 0px;
+}
+
+.panel-grafik{
+    position: relative;
+    top: 10px;
+    width: 800px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    font-family: 'ubuntu'
+}
+
+.panel-button{
+    position: relative;
+    top: 25px;
+    width: 800px;
+    height: 55px;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 147px;
+    height: 147px;
+}
+
+.form-login {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: 4.5px 15px 15px 2px rgb(27, 27, 27);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-login{
+    width: 100%;
+    box-shadow: 4.5px 15px 15px 2px rgb(27, 27, 27);
+    color: #fff;
+    background-color: #771a4e;
+    border-color: #771a4e;
+    font-weight: lighter;
+}

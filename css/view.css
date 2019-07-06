@@ -1,0 +1,543 @@
+#btn-input{
+    position: relative;
+    float: right;
+    margin: 0px 0px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    background-color: #30333a;
+    border-color: #30333a;
+}
+
+#btn-invoice{
+    position: relative;
+    float: right;
+    margin: 0px 10px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-grafik {
+    display: inline-block;
+    font-weight: 100%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.15rem 0.75rem;
+    margin-left: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+.btn-refill{
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-simpan {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    background-color: #30333a;
+    border-color: #30333a;
+  }
+
+.btn-riwayat {
+    position: relative;
+    width: 30%;
+    margin: auto;
+    color: #fff;
+    background-color: #30333a;
+    border-color: #30333a;
+  }
+
+.btn-edit {
+    color: #fff;
+    background-color: #405e79;
+    border-color: #405e79;
+}
+
+.btn-more{
+    width: 23.5%;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 100%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-remove{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 100%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-print {
+    position: relative;
+    width: 70%;
+    margin-left: 15.1%;
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+.label-menu{
+    font-size: 20px;
+    color: #203649;
+    padding: 10px 0px 0px 0px;
+}
+
+hr{
+    border: solid 1px #D6E0E4;
+}
+
+#lbl-merek{
+    margin-left: 162px;
+}
+
+#lbl-jenis{
+    margin-left: 107px;
+}
+
+.lbl-jenis{
+    margin-left: 127px;
+}
+
+.lbl-jenis2{
+    margin-left: 112px;
+}
+
+.lbl-satuan2{
+    margin-left: 45px;
+}
+
+#lbl-hrg_jual{
+    margin-left: 134px;
+}
+
+.lbl-username{
+    margin-left: 43.7%;
+}
+
+.lbl-level{
+    margin-left: 37%;
+}
+
+.lbl-nama{
+    margin-left: 100px;
+}
+
+#lbl-nama{
+    margin-left: 266px;
+}
+
+.lbl-tgl{
+    margin-left: 260px;
+}
+
+.lbl-tipe{
+    margin-left: 125px;
+}
+
+.lbl-etipe{
+    margin-left: 280px;
+}
+
+.lbl-merek{
+    margin-left: 40px;
+}
+
+.lbl-emerek{
+    margin-left: 64px;
+}
+
+.lbl-ejenis{
+    margin-left: 74px;
+}
+
+.lbl-ewarna{
+    margin-left: 61px;
+}
+
+.lbl-warna{
+    margin-left: 91px;
+}
+
+.frm-tinta{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.frm-warna{
+    width: 49.5%;
+    margin-bottom: 10px;
+}
+
+.frm-merek{
+    margin-left: 5px;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.frm-stok{
+    width: 26.5%;
+    margin-bottom: 10px;
+}
+
+.frm-stok2{
+    width: 31.2%;
+    margin-bottom: 10px;
+}
+
+.frm-satuan{
+    width: 18%;
+    margin-bottom: 10px;
+}
+.frm-jenis{
+    margin-left: 5px;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.frm-hrg_beli{
+    width: 49.5%;
+    margin-bottom: 10px;
+}
+
+.frm-hrg_jual{
+    margin-left: 5px;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.frm-date{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.frm-tgl{
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.frm-tambah_stok{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-nama{
+    width: 48%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.form-nuser{
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.form-nama2{
+    width: 36.5%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.edit-nama{
+    width: 53%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.form-username{
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.form-password{
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.form-level{
+    width: 45%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.form-notelp{
+    width: 24%;
+    margin-bottom: 10px;
+}
+
+.edit-notelp{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.form-char{
+    width: 9%
+}
+
+.edit-char{
+    width: 12%
+}
+
+.form-no_cart{
+    width: 15%;
+}
+
+.edit-no_cart{
+    width: 33%;
+}
+
+.form-tipe{
+    width: 14%;
+    margin-left: 2%;
+}
+
+.edit-tipe{
+    width: 12%;
+    margin-left: 2%;
+}
+
+.form-merek{
+    width: 15%;
+}
+
+.edit-merek{
+    width: 15%;
+}
+
+.form-warna{
+    margin-right: 1.5%;
+}
+
+.input-group-calender {
+    width: 18%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 5px 0px 0px;
+    margin-bottom: 7px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-calender {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#lbl-nocart{
+    width: 125px;
+}
+
+#lbl-htest{
+    width: 110px;
+}
+
+#lbl-tipe, #lbl-warna{
+    margin-left: 10px;
+}
+
+.all-grp{
+    margin-bottom: 12px;
+}
+
+.lbl-wtinta{
+    width: 120px;
+}
+
+.form-wrn, .form-stok{
+    width: 100px;
+}
+
+.form-bcm{
+    width: 20px;
+    margin-left: 2%;
+}
+
+.form-bcy{
+    width: 20px;
+    margin-left: 2%;
+}
+
+.form-cyan, .form-bcc,
+.form-magenta,.form-yellow{
+    width: 40px;
+}
+
+.label-test{
+    width: 9%;
+}
+
+.hasil_test{
+    width:55%;
+}
+
+.selc_test{
+    width:30%;
+}
+
+.l-cart{
+    width: 20px;
+}
+
+.l-tipe{
+    width: 20px;
+    margin-left: 2%;
+}
+
+.l-warna{
+    width: 20px;
+    margin-left: 2%;
+}
+.i-cart, .i-tipe,
+.i-warna{
+    width: 20px;
+}
+
+.l-kdtinta, .i-wrtinta{
+    width: 106.5px;
+}
+
+.l-stok,.l-isi{
+    width: 50px;
+    margin-left: 2%;
+}
+
+.i-stok,.i-isi{
+    width: 45px;
+}
+
+.space{
+    width:1%;
+    height: 1%;
+}
+
+.lbl-space{
+    margin-left: 1%;
+}
+
+.i-sat{
+    width: 10px;
+}
+
+.group-calender {
+    width: 18%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 5px 0px 0px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 0px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.cald-control {
+    display: block;
+    width: 90%;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 3px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.cal-1{
+    margin-left: 220px;
+}
+
+.cal-2{
+    margin-left: 45px;
+}
+
+.cal-3{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.icon-calender2{
+    color: #30333a;
+    font-style: normal;
+    font-size: 15px;
+    margin: auto;
+}
